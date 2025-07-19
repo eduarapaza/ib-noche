@@ -1,3 +1,29 @@
-body{
-    background: rgb(230, 115, 115);
+.cabecera{
+    display: flex;
 }
+a{
+    padding: 10px;
+    color: rgb(107, 105, 105);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(149, 149, 238);
+    background:black;
+}
+span{
+    border: 1px solid green;
+    padding: 4px 15px;
+    background: rgb(174, 245, 69);
+    color: green;
+    border-radius: 1.5rem;
+}
+/* selectores{
+    estilos
+}
+*/
+
+/*
+#id{}
+.clase{}
+etiqueta{}
+*/
