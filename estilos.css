@@ -1,26 +1,23 @@
-body {
-    background: rgb(230, 115, 115);
+.cabecera{
+    display: flex;
 }
 
-h1 {
-    color: blue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+a{
+    padding: 10px;
+    color: #383838;
+    text-decoration: none;
+}
+a:hover{
+    color: #6161ee;
+    /*background: yellowgreen;*/
 }
 
-.informatica {
-    color: beige;
-}
-
-#diseño {
-    color: brown;
-}
-
-.bg-green{
-    background: green;
-}
-
-.text-white{
-    color: white;
+span{
+    border: 1px solid green;
+    padding: 4px 15px;
+    background: #c3f37b;
+    color: green;
+    border-radius: 1.5rem;
 }
 
 /* selectores{
