@@ -1,7 +1,10 @@
 .cabacera{
     display: flex;
+    gap: 10px
+    ;
 }
 a{
+    border: 1px solid blue;
     padding: 10px;
     color:rgb(31, 31, 31);
     text-decoration: none;
@@ -17,6 +20,15 @@ span{
     color: green;
     border-radius: 1.5rem;
 }
+img{
+    width: 70px; height: 70px;
+    border-radius: 50%;}
+
+.perfil{
+        display:flex;
+        align-items: center;
+        gap: 15px;
+    }
     
 /* selectores{
     estilos
